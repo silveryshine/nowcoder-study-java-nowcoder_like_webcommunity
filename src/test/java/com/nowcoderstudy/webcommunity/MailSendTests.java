@@ -1,4 +1,6 @@
 package com.nowcoderstudy.webcommunity;
+import com.nowcoderstudy.webcommunity.entity.User;
+import com.nowcoderstudy.webcommunity.service.UserService;
 import com.nowcoderstudy.webcommunity.util.MailUtil;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -19,6 +21,9 @@ public class MailSendTests {
     @Autowired
     private TemplateEngine templateEngine;
 
+    @Autowired
+    private UserService userService;
+
     @Test
     public void testMailSend(){
         mailUtil.sendMail("2499876387@qq.com","javamailtest","yeah");
@@ -32,4 +37,14 @@ public class MailSendTests {
         mailUtil.sendMail("2499876387@qq.com","javamailtest22",content);
 
     }
+
+    @Test
+    public void testUserRegister(){
+        User u = new User();
+        u.setPassword("122345");
+        u.setEmail("2499876387@qq.com");
+        u.setUsername("silveryshine");
+        userService.userRegister(u);
+    }
+
 }
