@@ -1,0 +1,18 @@
+2021-06-24 15:43:29,279 INFO [main] c.n.w.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 16.0.1 on silveryshine with PID 39788 (started by 24998 in E:\求职\webcommunity)
+2021-06-24 15:43:29,282 INFO [main] c.n.w.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-24 15:43:30,743 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-24 15:43:30,771 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2021-06-24 15:43:31,634 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-24 15:43:31,851 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-24 15:43:32,045 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-24 15:43:32,091 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-24 15:43:32,207 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-24 15:43:32,438 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-24 15:43:32,687 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-24 15:43:32,702 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 15:43:33,594 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-24 15:43:33,960 INFO [main] c.n.w.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 5.472 seconds (JVM running for 6.75)
+2021-06-24 15:43:34,280 INFO [main] c.n.w.LoggerTests [LoggerTests.java:17] info log
+2021-06-24 15:43:34,307 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 15:43:34,316 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-24 15:43:34,325 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
