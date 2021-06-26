@@ -2,6 +2,7 @@ package com.nowcoderstudy.webcommunity.service;
 
 import com.nowcoderstudy.webcommunity.util.CommunityUtil;
 import com.nowcoderstudy.webcommunity.util.MailUtil;
+import com.nowcoderstudy.webcommunity.util.WebcommunityConstantUtil;
 import org.apache.commons.lang3.StringUtils;
 import com.nowcoderstudy.webcommunity.dao.UserMapper;
 import com.nowcoderstudy.webcommunity.entity.User;
@@ -18,7 +19,7 @@ import java.util.Map;
 import java.util.Random;
 
 @Service
-public class UserService {
+public class UserService implements WebcommunityConstantUtil {
     @Autowired
     private UserMapper userMapper;
 
@@ -28,10 +29,10 @@ public class UserService {
     @Autowired
     private MailUtil mailUtil;
 
-    @Value("http://localhost:8080")
+    @Value("${webcommunity.path.domain}")
     private String domain;
 
-    @Value("/webcommunity")
+    @Value("${server.servlet.context-path}")
     private String contextPath;
 
 
@@ -93,5 +94,17 @@ public class UserService {
         return map;
 
 
+    }
+
+    public int activation(int userId,String code){
+        User user = userMapper.selectById(userId);
+        if(user.getStatus()==1){
+            return ACTIVATION_REPEAT;
+        }
+        if(user.getActivationCode().equals(code)){
+            userMapper.updateStatus(userId,1);
+            return ACTIVATION_SUCCESS;
+        }
+        return ACTIVATION_FIAL;
     }
 }
