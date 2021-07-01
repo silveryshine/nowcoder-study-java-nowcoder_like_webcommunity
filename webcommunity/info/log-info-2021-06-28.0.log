@@ -1,0 +1,484 @@
+2021-06-28 17:39:44,353 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 15420 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:39:44,362 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:39:45,647 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:39:45,668 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:39:46,205 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:39:46,409 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:39:46,595 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:39:46,658 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:39:46,845 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:39:47,090 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:39:47,319 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:39:47,329 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:39:47,790 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:39:47,795 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:39:47,807 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:39:47,816 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 17:41:26,089 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 3296 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:41:26,093 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:41:26,906 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:41:26,925 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:41:27,463 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:41:27,648 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:41:27,810 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:41:27,862 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:41:27,983 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:41:28,195 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:41:28,443 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:41:28,455 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:41:28,888 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:41:28,891 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:41:28,907 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:41:28,915 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 17:42:46,003 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 26060 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:42:46,009 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:42:46,942 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:42:46,963 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:42:48,547 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:42:49,028 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:42:49,304 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:42:49,409 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:42:49,809 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:42:50,243 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:42:50,486 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:42:50,498 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:30,923 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 27028 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:44:30,926 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:44:30,965 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 17:44:30,966 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 17:44:31,471 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:44:31,483 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:44:31,918 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 17:44:31,927 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 17:44:31,928 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 17:44:31,928 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 17:44:32,014 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 17:44:32,014 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1048 ms
+2021-06-28 17:44:32,090 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:44:32,177 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:44:32,251 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:44:32,280 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:44:32,352 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:44:32,421 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:44:32,544 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:44:32,552 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:32,747 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:32,750 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:44:32,754 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:44:32,755 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-06-28 17:44:32,764 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 17:44:40,083 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:40,086 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:44:40,093 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:44:40,102 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 17:44:45,168 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 15700 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:44:45,171 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:44:45,206 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 17:44:45,206 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 17:44:45,720 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:44:45,732 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:44:46,146 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 17:44:46,153 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 17:44:46,153 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 17:44:46,153 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 17:44:46,221 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 17:44:46,222 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1015 ms
+2021-06-28 17:44:46,280 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:44:46,364 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:44:46,440 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:44:46,493 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:44:46,566 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:44:46,634 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:44:46,751 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:44:46,757 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:46,942 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:44:46,945 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:44:46,948 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:44:46,949 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-06-28 17:44:46,957 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 17:49:20,941 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 20384 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:49:20,944 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:49:21,804 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:49:21,823 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:49:22,309 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:49:22,470 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:49:22,644 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:49:22,695 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:49:22,840 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:49:23,075 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:49:23,515 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:49:23,540 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:49:25,847 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:49:26,340 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 5.805 seconds (JVM running for 7.563)
+2021-06-28 17:49:26,943 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:49:26,946 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:49:26,956 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:49:45,318 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 18532 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:49:45,322 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:49:46,241 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:49:46,261 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:49:46,847 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:49:47,084 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:49:47,536 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:49:47,648 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:49:47,891 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:49:48,292 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:49:48,658 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:49:48,674 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:49:50,390 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:49:50,759 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 5.991 seconds (JVM running for 7.097)
+2021-06-28 17:49:51,267 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:49:51,270 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:49:51,281 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:50:22,302 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 27264 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:50:22,306 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:50:23,444 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:50:23,490 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:50:24,309 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:50:24,620 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:50:24,862 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:50:24,918 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:50:25,139 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:50:25,478 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:50:25,887 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:50:25,906 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:50:26,938 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:50:27,316 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 5.42 seconds (JVM running for 6.57)
+2021-06-28 17:50:27,868 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:50:27,870 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:50:27,878 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:50:43,620 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 8548 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:50:43,627 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:50:44,689 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:50:44,708 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:50:45,329 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:50:45,615 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:50:45,816 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:50:45,888 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:50:46,054 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:50:46,265 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:50:46,496 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:50:46,507 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:50:48,322 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:50:49,029 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 6.201 seconds (JVM running for 8.809)
+2021-06-28 17:53:06,692 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:53:06,700 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:53:06,726 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:53:13,032 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 20620 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:53:13,034 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:53:13,944 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:53:13,965 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:53:14,576 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:53:14,813 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:53:15,027 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:53:15,119 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:53:15,356 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:53:15,607 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:53:15,842 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:53:15,853 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:53:16,934 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:53:17,604 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 5.016 seconds (JVM running for 7.327)
+2021-06-28 17:54:02,035 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:54:02,040 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:54:02,049 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 17:54:46,441 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:55] Starting StringTest using Java 16.0.1 on silveryshine with PID 24888 (started by 24998 in E:\求职\webcommunity)
+2021-06-28 17:54:46,445 INFO [main] c.n.w.StringTest [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 17:54:47,337 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 17:54:47,370 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2021-06-28 17:54:48,290 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 17:54:48,561 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 17:54:48,817 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 17:54:48,873 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 17:54:49,044 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 17:54:49,315 INFO [main] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 17:54:49,593 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 17:54:49,609 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:54:50,983 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 17:54:51,355 INFO [main] c.n.w.StringTest [StartupInfoLogger.java:61] Started StringTest in 5.353 seconds (JVM running for 6.642)
+2021-06-28 17:54:51,718 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 17:54:51,719 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 17:54:51,728 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 18:32:41,640 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 26268 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:32:41,642 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:32:41,693 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:32:41,694 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:32:42,303 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:32:42,316 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:32:42,794 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:32:42,801 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:32:42,802 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:32:42,802 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:32:42,883 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:32:42,883 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1189 ms
+2021-06-28 18:32:42,944 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:32:43,033 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:32:43,110 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:32:43,141 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:32:43,217 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:32:43,286 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:32:43,419 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:32:43,426 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:32:43,540 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:32:43,543 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 18:32:43,547 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 18:32:43,548 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-06-28 18:32:43,557 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 18:34:59,923 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 17276 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:34:59,925 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:34:59,962 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:34:59,963 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:35:00,489 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:35:00,500 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:35:00,980 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:35:00,987 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:35:00,988 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:35:00,988 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:35:01,069 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:35:01,069 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1106 ms
+2021-06-28 18:35:01,127 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:35:01,213 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:35:01,287 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:35:01,317 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:35:01,391 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:35:01,460 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:35:01,581 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:35:01,588 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:35:01,705 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:35:01,708 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 18:35:01,712 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 18:35:01,713 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-06-28 18:35:01,721 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 18:35:18,471 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 30560 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:35:18,473 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:35:18,517 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:35:18,517 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:35:19,050 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:35:19,064 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:35:19,494 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:35:19,501 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:35:19,501 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:35:19,501 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:35:19,571 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:35:19,571 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1053 ms
+2021-06-28 18:35:19,627 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:35:19,711 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:35:19,786 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:35:19,816 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:35:19,891 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:35:19,958 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:35:20,076 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:35:20,083 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:35:20,190 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:35:20,193 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-06-28 18:35:20,197 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-06-28 18:35:20,198 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-06-28 18:35:20,206 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-28 18:38:20,072 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 29476 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:38:20,075 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:38:20,119 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:38:20,119 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:38:20,644 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:38:20,656 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:38:21,073 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:38:21,079 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:38:21,080 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:38:21,080 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:38:21,149 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:38:21,150 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1030 ms
+2021-06-28 18:38:21,207 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:38:21,292 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:38:21,372 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:38:21,407 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:38:21,484 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:38:21,557 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:38:21,673 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:38:21,680 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:38:22,033 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:38:22,128 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:38:22,143 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:38:22,174 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:38:22,182 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.574 seconds (JVM running for 3.434)
+2021-06-28 18:38:25,396 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:38:25,396 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:38:25,397 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2021-06-28 18:42:54,160 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 13136 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:42:54,163 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:42:54,211 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:42:54,211 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:42:54,753 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:42:54,773 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:42:55,264 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:42:55,271 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:42:55,271 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:42:55,271 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:42:55,349 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:42:55,349 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1137 ms
+2021-06-28 18:42:55,412 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:42:55,509 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:42:55,611 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:42:55,657 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:42:55,742 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:42:55,813 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:42:55,949 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:42:55,958 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:42:56,373 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:42:56,525 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:42:56,544 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:42:56,578 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:42:56,592 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.835 seconds (JVM running for 4.046)
+2021-06-28 18:43:02,617 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:43:02,618 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:43:02,618 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2021-06-28 18:43:41,282 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 18820 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:43:41,284 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:43:41,346 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:43:41,348 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:43:42,098 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:43:42,112 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:43:42,632 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:43:42,639 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:43:42,640 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:43:42,640 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:43:42,725 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:43:42,725 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1374 ms
+2021-06-28 18:43:42,789 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:43:42,878 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:43:42,960 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:43:42,991 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:43:43,069 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:43:43,137 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:43:43,256 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:43:43,263 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:43:43,605 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:43:43,698 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:43:43,714 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:43:43,743 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:43:43,751 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.896 seconds (JVM running for 3.93)
+2021-06-28 18:43:47,587 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:43:47,587 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:43:47,588 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2021-06-28 18:44:57,342 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 21576 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:44:57,344 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:44:57,381 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:44:57,381 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:44:57,857 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:44:57,869 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:44:58,295 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:44:58,301 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:44:58,301 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:44:58,302 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:44:58,378 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:44:58,379 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 996 ms
+2021-06-28 18:44:58,453 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:44:58,557 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:44:58,642 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:44:58,677 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:44:58,760 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:44:58,836 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:44:58,966 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:44:58,976 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:44:59,322 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:44:59,420 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:44:59,436 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:44:59,465 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:44:59,473 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.521 seconds (JVM running for 3.747)
+2021-06-28 18:46:27,513 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 28468 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:46:27,516 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:46:27,569 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:46:27,569 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:46:28,078 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:46:28,090 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:46:28,498 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:46:28,504 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:46:28,504 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:46:28,504 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:46:28,574 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:46:28,575 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1005 ms
+2021-06-28 18:46:28,631 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:46:28,719 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:46:28,803 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:46:28,838 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:46:28,915 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:46:28,999 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:46:29,126 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:46:29,133 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:46:29,499 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:46:29,603 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:46:29,621 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:46:29,651 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:46:29,660 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.515 seconds (JVM running for 3.106)
+2021-06-28 18:46:33,192 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:46:33,192 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:46:33,193 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2021-06-28 18:47:27,462 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 10248 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:47:27,464 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:47:27,502 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:47:27,502 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:47:28,009 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:47:28,022 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:47:28,483 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:47:28,489 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:47:28,489 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:47:28,490 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:47:28,559 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:47:28,560 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1057 ms
+2021-06-28 18:47:28,616 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:47:28,711 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:47:28,794 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:47:28,826 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:47:28,900 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:47:28,968 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:47:29,089 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:47:29,097 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:47:29,477 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:47:29,570 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:47:29,586 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:47:29,618 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:47:29,626 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 2.504 seconds (JVM running for 3.086)
+2021-06-28 18:47:33,370 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:47:33,370 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:47:33,371 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2021-06-28 18:53:14,020 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:55] Starting WebcommunityApplication using Java 16.0.1 on silveryshine with PID 24344 (E:\求职\webcommunity\target\classes started by 24998 in E:\求职\webcommunity)
+2021-06-28 18:53:14,022 INFO [restartedMain] c.n.w.WebcommunityApplication [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-06-28 18:53:14,068 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 18:53:14,069 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 18:53:14,616 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 18:53:14,628 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-28 18:53:15,123 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2021-06-28 18:53:15,132 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:53:15,132 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-06-28 18:53:15,133 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 18:53:15,226 INFO [restartedMain] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-06-28 18:53:15,227 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1158 ms
+2021-06-28 18:53:15,336 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-06-28 18:53:15,632 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-06-28 18:53:15,754 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 18:53:15,794 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 18:53:15,881 INFO [restartedMain] o.h.a.c.Version [JavaReflectionManager.java:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 18:53:15,968 INFO [restartedMain] o.h.d.Dialect [Dialect.java:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 18:53:16,145 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 18:53:16,156 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 18:53:16,621 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-06-28 18:53:16,790 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2021-06-28 18:53:16,811 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-28 18:53:16,847 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/webcommunity'
+2021-06-28 18:53:16,860 INFO [restartedMain] c.n.w.WebcommunityApplication [StartupInfoLogger.java:61] Started WebcommunityApplication in 3.19 seconds (JVM running for 3.814)
+2021-06-28 18:53:17,010 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/webcommunity] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 18:53:17,011 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-06-28 18:53:17,013 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
