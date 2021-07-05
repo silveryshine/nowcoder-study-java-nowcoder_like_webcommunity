@@ -53,10 +53,10 @@ public class HomeController {
         page.setPath("/index");
         return "/index";
     }
-/*
-    @RequestMapping(path="/error")
+
+    @RequestMapping(path="/error",method = RequestMethod.GET)
     @ResponseBody
     public String myerror(){
-        return "error";
-    }*/
+        return "/error/500";
+    }
 }

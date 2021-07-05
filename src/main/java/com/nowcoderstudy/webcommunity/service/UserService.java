@@ -43,6 +43,10 @@ public class UserService implements WebcommunityConstantUtil {
         return userMapper.selectById(id);
     }
 
+    public User findUserByName(String name){
+        return  userMapper.selectByName(name);
+    }
+
     public Map<String,Object> userRegister(User user){
         Map<String, Object> map = new HashMap<>();
         if(user==null){
