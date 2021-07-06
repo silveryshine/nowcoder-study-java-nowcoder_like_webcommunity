@@ -7,12 +7,15 @@ import com.nowcoderstudy.webcommunity.entity.Page;
 import com.nowcoderstudy.webcommunity.entity.User;
 import com.nowcoderstudy.webcommunity.service.DiscussPostService;
 import com.nowcoderstudy.webcommunity.service.UserService;
+import com.nowcoderstudy.webcommunity.util.CommunityUtil;
+import com.nowcoderstudy.webcommunity.util.RedisKeyUtil;
 import com.nowcoderstudy.webcommunity.util.WebcommunityConstantUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.repository.cdi.Eager;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Controller;
@@ -31,6 +34,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @Controller
 public class LoginController implements WebcommunityConstantUtil {
@@ -41,6 +45,9 @@ public class LoginController implements WebcommunityConstantUtil {
 
     @Autowired
     private Producer kaptchaProducer;
+
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
@@ -93,7 +100,18 @@ public class LoginController implements WebcommunityConstantUtil {
     public void getKaptcha(HttpServletResponse response, HttpSession session){
         String text = kaptchaProducer.createText();
         BufferedImage image = kaptchaProducer.createImage(text);
-        session.setAttribute("kaptcha",text);
+        //session.setAttribute("kaptcha",text);
+
+        // 验证码的归属
+        String kaptchaOwner = CommunityUtil.generateUUID();
+        Cookie cookie = new Cookie("kaptchaOwner", kaptchaOwner);
+        cookie.setMaxAge(60);
+        cookie.setPath(contextPath);
+        response.addCookie(cookie);
+        // 将验证码存入Redis
+        String redisKey = RedisKeyUtil.getKaptchaKey(kaptchaOwner);
+        redisTemplate.opsForValue().set(redisKey, text, 60, TimeUnit.SECONDS);
+
         response.setContentType("image/png");
         try{
             OutputStream outputStream = response.getOutputStream();
@@ -105,8 +123,14 @@ public class LoginController implements WebcommunityConstantUtil {
     }
 
     @RequestMapping(path = "/login",method = RequestMethod.POST)
-    public String login(Model model, String username, String password, String code, boolean remember, HttpSession session, HttpServletResponse response){
-        String kaptcha = (String)session.getAttribute("kaptcha");
+    public String login(Model model, String username, String password, String code, boolean remember /*HttpSession session*/,
+                        HttpServletResponse response,@CookieValue("kaptchaOwner") String kaptchaOwner){
+        //String kaptcha = (String)session.getAttribute("kaptcha");
+        String kaptcha = null;
+        if (StringUtils.isNotBlank(kaptchaOwner)) {
+            String redisKey = RedisKeyUtil.getKaptchaKey(kaptchaOwner);
+            kaptcha = (String) redisTemplate.opsForValue().get(redisKey);
+        }
         if (StringUtils.isBlank(kaptcha) || StringUtils.isBlank(code) || !kaptcha.equalsIgnoreCase(code)) {
             model.addAttribute("codeMsg", "invalid code!");
             return "/site/login";
